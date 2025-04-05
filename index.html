@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jornal Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Jornal Virtual: Primeira Págia da Edição</h1>
+        <nav>
+            <ul>
+        
+                <li><a href="noticia.html">Notícias</a></li>
+                <li><a href="podcast.html">Podcasts</a></li>
+                <li><a href="video.html">Vídeos</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="noticias">
+            <h2>Últimas Notícias</h2>
+            <div class="noticia">
+                <img src="images/noticia1.jpg" alt="Notícia 1">
+                <h3>Título da Notícia</h3>
+                <p>Resumo da notícia...</p>
+                <a href="noticia.html">Leia mais</a>
+            </div>
+        </section>
+
+        <section id="podcasts">
+            <h2>Últimos Podcasts</h2>
+            <audio controls>
+                <source src="podcasts/podcast1.mp3" type="audio/mpeg">
+                Seu navegador não suporta o player de áudio.
+            </audio>
+        </section>
+
+        <section id="videos">
+            <h2>Últimos Vídeos</h2>
+            <video controls width="100%">
+                <source src="videos/video1.mp4" type="video/mp4">
+                Seu navegador não suporta vídeos.
+            </video>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Jornal Virtual</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
